@@ -1,0 +1,81 @@
+/*reset*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+   font-family: 'Rubik Mono One', sans-serif;
+}
+
+/*Typo*/
+h2{
+  font-size: 38px
+}
+
+/* FineTypo*/
+
+/*Header*/
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 100%;
+  padding: 30px 15px;
+}
+.main-nav {
+  text-align: right;
+}
+.main-nav  li {
+  display: inline-block;
+  list-style: none;
+  margin-left: 10px;
+
+}
+.main-nav  li a {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #fff;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  line-height: 40px;
+  color: #000;
+}
+/* fine Header */
+/* main */
+.scarpe{
+  position: relative;
+  height: 100vh;
+}
+.blocco {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  max-width: 600px;
+}
+.blocco img{
+  width: 100%;
+}
+#scarpa-1{
+  background-color: red;
+  color: yellow;
+}
+#scarpa-2{
+  background-color: green;
+  color: yellow;
+}
+#scarpa-3{
+  background-color: yellow;
+  color: green;
+}
+
+/*fine main */
